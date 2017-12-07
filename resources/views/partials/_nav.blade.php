@@ -31,9 +31,9 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                    <li><a href="{{ route('posts.index') }}">Posts</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
+                                    <li><a href="{{ route('categories.index') }}">Categories</a></li>
+                                     <li><a href="{{ route('tags.index') }}">Tags</a></li>
+                                     <li role="separator" class="divider"></li>
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
